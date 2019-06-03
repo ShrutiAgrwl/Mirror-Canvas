@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 12px;
+    background: #eee;
+}
+div{
+    display: inline-block;
+    cursor: crosshair;
+}
+#sk1:active{
+    cursor: crosshair;
+}
+#sk2{
+    cursor: none;
+    pointer-events: none;
+
+}
+.menu{
+    display: block;
+    height: 55px;
+    width: 100%;
+    background-color: #eee;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: default;
+}
+input[type="color"]{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 37px;
+    height: 37px;
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+input[type="color"]::-webkit-color-swatch-wrapper{
+    padding: 0;
+    border: 2px solid #000;
+    border-radius: 50%;
+    box-shadow: 0 0 5px 2px #666;
+}
+input[type="color"]::-webkit-color-swatch{
+    border: none;
+    border-radius: 50%;
+}
+input[type="range"]{
+    -webkit-appearance: none;
+    width: 50%;
+    background: transparent;
+    outline: none;
+}
+input[type="range"]::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 30px;
+    width: 15px;
+    border-radius: 3px;
+    background: #fff;
+    cursor: pointer;
+    margin-top: -6px;
+    box-shadow: 0 0 5px 1px #222;
+    opacity: 0.6;
+    border: 1px solid #000; 
+}
+input[type="range"]::-webkit-slider-runnable-track{
+    height: 20px;
+    background: #3176f2;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #666;
+}
+
+#output{
+    position: relative;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #eee;
+    background: linear-gradient(#36f, #58f);
+    border: 2px solid #3176f2;
+    top: -6px;
+    left: 0;
+    z-index: 0;
+    display: inline-block;
+    margin-left: 30px;
+    cursor: default;
+}
+input[type="range"]:active::-webkit-slider-thumb{
+    opacity: 0.8;
+}
+#title{
+    position: absolute;
+    margin: 0;
+    margin-top: -6px;
+    margin-left: 32px;
+    text-align: center;
+}
