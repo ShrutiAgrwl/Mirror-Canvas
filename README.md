@@ -7,4 +7,4 @@ Both the canvases, the original and the mirror one, change its position dependin
 The mirror canvas is able to produce vertically reflected image as well as horizontally reflected image. A vertical reflection reflects a image vertically across the x-axis, while a horizontal reflection reflects a image horizontally across the y-axis.
 
 Demo Image:
-https://user-images.githubusercontent.com/35723938/58787978-93db6480-8608-11e9-8f90-6e2c8c7af9e4.png
+![image](https://user-images.githubusercontent.com/35723938/58941332-2ad72680-8799-11e9-8b1e-771bc2e411f4.png)
