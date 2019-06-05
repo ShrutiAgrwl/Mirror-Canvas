@@ -17,6 +17,7 @@ window.onload = function(){
         output.innerHTML = range.value;
     }
 
+    //original canvas
     var sketch1 = function(s1){
         s1.setup = function(){
             if(w <= h){
@@ -44,6 +45,7 @@ window.onload = function(){
         }
     }
 
+    //mirror canvas
     var sketch2 = function(s2){
         s2.setup = function(){
             if(w <= h){
